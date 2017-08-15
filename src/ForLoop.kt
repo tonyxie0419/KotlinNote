@@ -1,6 +1,8 @@
+import com.sun.deploy.trace.LoggerTraceListener
 import java.util.*
 
 fun main(args: Array<String>) {
+
     val actualDateRange = arrayListOf<MyAnotherDate>()
     iterateOverDateRange(MyAnotherDate(2015,3,15),MyAnotherDate(2015,3,16),{
         myAnotherDate -> actualDateRange.add(myAnotherDate)
